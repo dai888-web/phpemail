@@ -1,3 +1,5 @@
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 //$email=$_GET["mail"];
 //$name=$_GET["username"];
         $email=$_POST['mail']; //收件人的邮箱
